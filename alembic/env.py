@@ -1,10 +1,10 @@
-from logging.config import fileConfig
 import asyncio
-from alembic import context
-from sqlalchemy import engine_from_config
-from sqlalchemy import pool
+from logging.config import fileConfig
+
+from sqlalchemy import engine_from_config, pool
 from sqlalchemy.ext.asyncio import create_async_engine
 
+from alembic import context
 from city_temperature_app.models import *
 from database import Base
 
