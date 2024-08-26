@@ -1,0 +1,8 @@
+__pycache__/
+db.sqlite3
+__pypackages__/
+.env
+.venv
+.mypy_cache/
+.idea/
+city_temperature_app.db
