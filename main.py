@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from city_temperature_app.api import city, temperature
 from database import Base, engine
 
+
 app = FastAPI()
 
 app.include_router(city.router, prefix="/api", tags=["cities"])
